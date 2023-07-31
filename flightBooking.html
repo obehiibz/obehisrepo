@@ -1,0 +1,157 @@
+<!--flight booking management platform application structure-->
+<html>
+<head>
+  <title>
+    Flight booking
+  </title>
+  <style>
+  <!--@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);-->
+  h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 800;
+  }
+  
+  p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+  }
+  
+  .header {
+  width: 100%;
+  height:10%;
+  padding:60px 0;
+  text-align:center;
+  image-rendering: optimizeQuality;
+  text-decoration:dotted;
+  background: #33cccc;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  }
+  
+  
+  .btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px;
+  }
+  
+  .btn-bgstroke:hover {
+  background-color: rgb(243, 227, 227);
+  color: #33cccc;
+  }
+   .booking {
+  width: 33%;
+  height: 50%
+  /*display: block;
+  padding: 3%0px 0;
+  text-align: center;*/
+  }
+   .advert {
+  width: 33%;
+  height: 50%;
+  display: block;
+  padding:60px 0;
+  text-align: center;
+  background: #33cccc;
+  color: white;
+  }
+   .about {
+  width: 33%;
+  display: block;
+  padding:60px 0;
+  text-align: right;
+  background: #33cccc;
+  color: rgb(39, 1, 1);
+  }
+  .column {
+  float: left;
+  width: 33.33%;
+  height: fit-content;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+  background-color: white;
+    }
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.column {
+  float:left;
+ }
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+/*img {
+  width: 50%;
+  height: auto;
+}*/
+  </style>
+</head>
+<body>
+
+<div class="row">
+  <div class="header">
+    <!--<img src="C:\Users\OBEHI\test-demo/aircraft.jpeg" height="50%" width="50%" position="left">-->
+   <h1>Travel Worthy</h1>
+  <!--<p>Our Mission</p></div>-->
+</div>
+<div>
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h3>Make Booking</h3>
+      <img src="C:\Users\OBEHI\test-demo/booking.png" width="50%" height="30px" position="center">
+      <form position="" display="block" float="right">
+        <br><br><label>Flight Number
+        <!--<input id="flightNumber", type="text",placeholder="Flight #", readonly, required/>-->
+        <br><br><label>From Airport
+          <input id="fromAirport", type="text", placeholder="From Airport", required/>
+          <br><br><label> To destination Airport
+          <input id="destination", type="text", placeholder="Destination"/>
+          <br><br><button style="background-color: darkblue; text-align: center; -webkit-text-fill-color: white;"onclick="submit_by_id()">Search</button>
+      </form>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+      <h3>About Us</h3>
+      <p>We are a travel and tour company with a difference</p>
+      <br>
+      <img src="C:\Users\OBEHI\test-demo/interior.jpeg" width="100%" height="50%"> 
+    <br><br>
+    <list>
+      <li>
+        Flight Booking
+      </li>
+      <li> Packaged Travel and Tours</li>
+    </list>
+    <li>Hotel booking</li>
+    <li>Visa Processing</li>
+    </label>
+    </div>
+    <div class="column" style="background-color:#ccc;">
+      <h3>Advert</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
+
