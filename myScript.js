@@ -1,5 +1,5 @@
 <script>
-//code goes here
+
   5.6;
   32, 4.5, 300;
   "this is a string";
