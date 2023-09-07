@@ -1,20 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+
+	</head>
+<body>
+<h1>HelloWorld</h1>
 <script>
-//code goes here
+<!--code goes here
 5;
 5.6;
 32, 4.5, 300;
 "this is a string";
 "this is a second string";
-alert("This is a \"special\" string");
+alert("This is a \"special\" string");-->
 
-var myVale = 5;
-var mySecondValue = 7 + 9;
-var myThirdValue = myValue + mySecondValue;
-alert(myThirdValue);
+<!--var myVal = 5;
+var mySecondVal = 7 + 9;
+var myThirdVal = myVal + mySecondVal;
+alert(myThirdVal);
 
 var nyFirstName = "Obehi";
 var myLastName = " Anetor Ibiezugbe";
 var myFullNames = myFirstName + "" + myLastName;
-alert(myFullNames);
-
+alert(myFullNames);-->
+var hasLicence = false;
+		var hasRegistration = true;
+		var isValidDriver = hasLicence && hasRegistration;
+		alert(isValidDriver);
+		var hasInsurance = false;
+		var isInvalidDriver = isValidDriver || hasInsurance;
+		alert(isInvalidDriver);
 </script>
+
+</body>
+</html>

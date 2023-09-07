@@ -1,0 +1,30 @@
+p{
+    color:green;
+    opacity: 0.5;
+    text-transform: capitalize;
+  }
+h1{
+    color:white;
+    margin-left: 10px;
+    text-align: center;
+  }
+header{
+        background-color: green;
+        box-shadow: 5px 5px 5px;
+      }
+div{
+      border: 0 solid blue;
+    }
+#flight{
+          filter: contrast(50px);
+        }
+#logo{
+      filter: invert(70%);
+
+    }
+#flag{
+        height: 125px;
+        background-image: url(flag.webp);
+        background-repeat: no-repeat;
+        background-position:0 bottom;
+      }

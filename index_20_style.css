@@ -1,0 +1,143 @@
+header {
+  background-color: rgb(44, 44, 59);
+  width: 100%;
+  height: auto;
+  }
+nav {
+  padding: 20px 20px 30px 5px;
+  height: 20px;
+  }
+ul {
+  list-style: none;
+  margin: 0;
+  padding-bottom: 10px;
+  float: right;
+  overflow: hidden;
+   }
+li {
+  float: left;
+  padding: 16px;
+  display: inline;
+  text-align: center;
+  }
+
+a {
+  color: white;
+  }
+.hero{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-image: url(day20_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+h1{color: white; font-weight: bolder;}
+.herop{color: white; font-weight: 500;}
+.bttn {
+  background-color: white;
+  color: crimson;
+  border: 1px solid brown;
+  transform: translateY(2px);
+  width: 10%;
+  }
+img {
+  width: 100%;
+  height: auto;
+  padding-top: 0;
+  border-radius: 5px;
+  border-radius: 25px;
+  box-shadow: 3px 4px 15px 5px crimson;
+}
+#servicebttn{width: 30%; background-color: brown; color: white;}
+.div1{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+.service1{
+  width: 33.33%;
+  margin: 10px;
+  text-align: center;
+  padding: 25px 2px 0px 2px;
+  transform: scale(0.9, 0.9);
+  justify-items: space-around;
+  }
+
+.div2{
+  width: 100%;
+  height: 30%;
+  display: flexbox;
+  }
+.sideleft{
+  width: 50%;
+  height: auto;
+  float: left;
+  }
+#sideimage{
+  width: 70%;
+  height: 20%;
+  box-shadow: none;
+  }
+.sideright{
+  width: 50%;
+  height: auto;
+  float: left;
+  text-align: center;
+  }
+.foot {
+   background-color: rgb(44, 44, 59);
+   position: fixed;
+   display: inline;
+   width: 98.8%;
+   height: 5%;
+   bottom: 0;
+   left: 4px;
+   right: 4px;
+   padding: 0;
+   text-align: center;
+    }
+.formstyle {
+      width: 100%;
+      height: auto;
+      padding-top: 0;
+      padding-right: 0;
+    }  
+label {
+      width: 100%;
+      font-weight: bold;
+      color: crimson;
+      margin-left: 10px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+ input {
+      width: 70%;
+      height: 30px;
+      margin: 5px 0;
+      box-sizing: border-box;
+      border: 2px solid crimson;
+      border-radius: 4px;
+    }  
+textarea {
+      width: 70%;
+      height: 150px;
+      margin: 5px 0;
+      box-sizing: border-box;
+      border: 2px solid crimson;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+ .sendmessage {
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      background-color: crimson;
+    }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment Day 3- Bebby_sis</title>
+	</head>
+<body>
+	<h1 style="color:blue;">Codemarch Portfolio</h1>
+	<p style="color:darkgreen;">Welcome to my portfolio website! My Name is Obehi Bebby and I am a web developer with experience in HTML, CSS and JavaScript. Below you will find some example of my work and ways to get in touch with me</p>
+	<h2 style="color:blue;">My Projects</h2>
+	<h3 style="color:darkgreen;">Project 1: Responsive Website</h3>
+	<p>I designed and developed a responsive website for a local business using HTML, CSS and JavaScript. The site features a clean layout and is optimized for both desktop and mobile devices.</p>
+	<a href=""><img src="C:\Users\OBEHI\Downloads\image2.png" alt="Assignment 3" style="width:200px; height:150px;"></a>
+	<h3 style="color:darkgreen;">Project 1: E-Commerce Platform</h3>
+	<p>For this project, I worked with a team to create a custom E-commerce platform using HTML, CSS and JavaScript, and a back-end framework. The platform allows customers to browse products, add items to their cart, and complete purchases.</p>
+	<a><img src="C:\Users\OBEHI\Downloads\image1.png" alt="Assignment 3" style="width:200px; height:150px;"></a>
+	<h2 style="color:blue;">Get in Touch</h2>
+	<p>If you'd like to discuss a project or learn more about my work, please feel free to reach out:</p>
+	<p>Email: <a href="mailto:sparkitnigeria@gmail.com", target="_blank">codemarch@example.com</a></p>
+	<p>LinkedIn:<a href="www.linkedin.com/in/codemarch/" target="_blank">www.linkedin.com/in/codemarch/</a></p>
+
+</body>
+</html>

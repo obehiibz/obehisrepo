@@ -1,0 +1,56 @@
+header{
+       background-color: orangered;
+       background-image:linear-gradient(to right, green, yellow);
+      }
+.formstyle{
+            height: 400px;
+            width: 400px;
+            border: 2px solid greenyellow;
+            background-color: green;
+            padding: 10px 10px 10px 10px;
+                }
+label{
+        width: fit-content;
+        font-weight: bolder;
+        color: white;
+        margin-left: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+input{
+        width: 400px;
+        height: 30px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 2px solid yellow;
+        border-radius: 4px;
+      }
+textarea{
+          width: 400px;
+          height: 150px;
+          margin: 5px 0;
+          box-sizing: border-box;
+          border: 2px solid aliceblue;
+          border-radius: 4px;
+          cursor:pointer;
+          overflow: scroll;
+        }
+button{
+        width: 400px;
+        color: green;
+        font-weight: bold;
+        box-sizing: border-box;
+        border: 2px solid aliceblue;
+        border-radius: 5px;
+      }
+form{
+      width: 400px;
+      height: 350px;
+    }
+div{
+    overflow: auto;
+    resize: both;
+    }
+h1{
+    text-align: center;
+    color:white;
+  }

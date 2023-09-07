@@ -1,35 +1,127 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-	<body>
+	<head>
+		<title> Demo Javascript </title>
+	</head>
+<body>
 	<h1>Hello World!</h1>
 		<script>
 			alert("Hello Dear user");
 		<!--code goes here-->
+		//concatenating variables in the next line of code
 			var myNum = 5;
 			var yourNum = 9 + 5;
 			var ourNum = myNum + yourNum;
 			alert(ourNum);
+			//the next line of code demos if, else and else if statements i.e. conditional statements-->
+			var ageAsString = prompt("What is your age", "");
+			var age = Number(ageAsString);
+			if (age < 40)
+				{
+				alert("Oh you are so young");
+				}
+			else if (age == 40)
+				{
+				alert("wow who is at their prime now uhn?");
+				}
+			else
+				{
+				alert("dont worry you are young at heart");
+				}
+  			alert("Thank you!");
+  		//the next line of code demonstrates while loops-->
+		var yourAge = Number(prompt("What is your age?", ""));
+		var string = "";
+		while (yourAge > 0)
+			{
+				string += "Happy Birthday \n";
+				yourAge = yourAge - 1;
+			}
+		alert(string);
+		//my loop is not ending, i think there is an issue with my statement inside the curly bracket. fixed, i had a ; in the conditonal statement-->
+		//the next line of code demonstrates do while loops-->
+		var theGratitude = Number(prompt("How many times are you grateful?", ""));
+		var myGratitude = "";
+		do
+			{
+				myGratitude += "Jesus I am so grateful \n";
+				theGratitude = theGratitude - 1;
+			}
+		while (theGratitude > 0)
+		alert(myGratitude); //do while loop is same as the while loop, only that it is guaranteed to run at least 1 time an example is when 0 was inputted in this case above-->
+
+	//the next line of code is for demonstrating for loops, i dont understand it yet-->
+		var drink = Number (prompt("Have you drank any liquid today? if yes, how many cups?", ""));
+		var totalCups = "";
+		for ( var theCups = drink; theCups > 0; theCups -= 1)
+			{
+				totalCups += "Stay Hydrated guys \n";
+			}
+		alert(totalCups);
+
+		//the next line of code will demonstrate how to branch off a for loop e.g. break-->
+		var staffAge = Number(prompt("How old are you?", ""));
+		var myAge = "";
+		for ( var counter = 1; counter < staffAge; counter += 1)
+			{
+				myAge += "Is not a secret \n";
+				if (counter % 7 == 0)
+					break;
+			}
+		alert(myAge);
+	//this next lines of code demonstrates switch statements e.g. switches from one case to another until the input or case match-->
+		var animal = "dog";
+		switch(animal)
+			{
+				case "cat":
+				alert("Meoooow")
+					break;
+				case "dog":
+				alert("woooof")
+					break;
+				case "horse":
+				alert("whinny")
+					break;
+				default:
+				alert("unknown animal")
+				break;
+			}
+		//the next line of code demonstrates boolean statements i.e. true, false, &&, !, ||-->
+		var hasLicence = false;
+		var hasRegistration = true;
+		var isValidDriver = hasLicence && hasRegistration;
+		alert(isValidDriver);
+		var hasInsurance = false;
+		var isInvalidDriver = isValidDriver || hasInsurance;
+		alert(isInvalidDriver);
+	//falsey-->
+		alert(1 === false);
+	//unary/incremental operator and booleans-->
+		var x = 5;
+		x++;
+		alert(x);
+	//continuation of unary/incremental operator and booleans-->
+		//var X = 5;
+		//var Y = X < 10 ? X : 10;
+		//var Z = X + Y;
+		//alert(Y);
+		 var X = 12;
+				var Y;
+		    if (X < 10)
+		    {
+		      Y = X;
+		    }
+		    else
+		    {
+		      Y = 10;
+		    }
+		alert(Y);
+
 
 
 
 		</script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	</body>
+</body>
 </html>

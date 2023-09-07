@@ -1,0 +1,91 @@
+ul{
+    color:red;
+}/* changes the font color of list items to red*/
+#sup{
+    background-color: aqua;
+} /*this id selector changes the background color of the list items to aqua*/ 
+.fun {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  font-size: x-large;
+}/*
+this class
+manipulates the font properties
+*/
+div{
+      margin: 50px 50px 50px 50px;
+    }/*this line defines the div margin properties*/
+#div1{
+  border: 10px solid black;
+  margin: 50px 50px;
+  background-color: aquamarine;
+      } /* This id selector defines the design for the inner div element*/
+ body{
+
+  border:3px solid blue;
+      }
+/* this line defines background color for the body of the html file*/
+.myDiv{
+    padding-top:50px;
+    padding-left:50px;
+    padding-right:50px;
+    } /*This class selector defines the padding properties of the inner element*/
+#p{
+  background-color: blueviolet;
+
+} /*this id selector defines the background color of the paragraph element*/
+#textd{
+        text-decoration: underline;
+        text-transform: uppercase;
+        letter-spacing: 10px; /* adds white space inbetween letters*/
+        margin-left: 10px; /*adds a margin 10px to the left of the paragraph*/
+      }
+a{
+      text-transform: none;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 19px;
+      color:white;
+
+    }
+a:hover{
+         text-decoration: none;
+        }
+nav{
+    background-color:darkcyan;
+    }
+ul,li{
+        margin-right: 20px;
+        padding: 10px 10px 5px 5px;
+        list-style: none; /* removes any styling that is by default on a list- in this case an unorder list*/
+      }
+      li:hover{
+          background-color:cornflowerblue;
+        }
+  myHeaader{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            font-weight: bolder;
+            }
+  #homeHeader{
+                margin-left: 20px;
+
+            }
+  #day12{
+          border: 2px solid fuchsia;
+          background-color: bisque;
+        }
+#bodyFont{
+            background-color: darkgray;
+          }
+#cursor{
+          cursor:progress;
+        }
+#important{
+            background-color: blue;
+
+          }
+h2{
+    background-color: brown; !important;
+  }
+  

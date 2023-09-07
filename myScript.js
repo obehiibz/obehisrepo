@@ -1,4 +1,4 @@
-<script>
+
 
   5.6;
   32, 4.5, 300;
@@ -9,11 +9,16 @@
   var myVale = 5;
   var mySecondValue = 7 + 9;
   var myThirdValue = myValue + mySecondValue;
-  alert(myThirdValue);C:\Users\OBEHI\test-demo\myJS.js
+  alert(myThirdValue);
 
-  var nyFirstName = "Obehi";
+  var myFirstName = "Obehi";
   var myLastName = " Anetor Ibiezugbe";
   var myFullNames = myFirstName + "" + myLastName;
   alert(myFullNames);
-
-</script>
+  var ageAsString = prompt("What is your age", "");
+  var age = Number(ageAsString);
+  if ( age = 40 )
+        {
+          alert("Oh you are so young")
+        }
+      alert("thank you!");

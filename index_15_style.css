@@ -1,0 +1,50 @@
+:root{
+      --main-bg-color:indianred;
+    
+    }
+table,th,td{
+      border: o solid grey;
+    }
+table{
+      width: 400px;
+      height: 300px;
+      /*border-collapse: collapse;*/
+      }
+td{
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    border:1px solid;
+  }
+tr{
+    background-color: yellowgreen;
+    background-image: radial-gradient(aliceblue,gray);
+  }
+ul{
+    list-style:none;
+    list-style-type:square;
+    list-style-position: inside;
+    background-color:grey;
+  }
+li{
+    padding: 10px 10px 10px 10px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+  }
+th{
+    background-color:var(--main-bg-color);
+    font-weight: bolder;
+    text-align: center;
+  }
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--main-bg-color);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+tfoot{
+        color: aliceblue;
+      }

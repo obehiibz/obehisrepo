@@ -1,0 +1,141 @@
+header {
+      background-color: green;
+      padding: 5px 20px;
+        }
+h1{
+    margin-left: 10px;
+  }
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    display: flex;
+  }
+li a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+  
+  }
+h2{
+  color: green;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+h2::first-letter{
+                  color: coral;
+                  font-size: larger;
+              }
+i::first-letter{
+    color: yellow;
+         }
+h3{
+  color: green;
+}
+.div1{
+     text-align: center;
+  }
+.main{
+        display: flex;
+        background-color:bisque;
+        height: 60%;
+      }
+.sidebarleft{
+      width: 65%;
+      padding: 20px;
+      text-align: left;
+  }
+.sidebarright{
+        width: 35%;
+        float: right;
+        border: 1px solid green;
+        }
+footer{
+        background-color: antiquewhite;
+          position: relative;
+          width: 100%;
+          height: 10%;
+          bottom: 0;
+          left: 0;
+          color: green;
+          text-align: center; 
+          padding: 0;
+      }
+.sideimage{
+            box-sizing: content-box;  
+            object-fit: fill;       
+          }
+h5{
+    position:absolute; /*this is to position the h4 header on top the image. Both are inside the div container*/
+    color: red;
+    font-size: xx-large;
+    z-index: 2;
+  }   
+img{
+        width: 100%;
+        height: 100%;
+        max-height: 750px;
+        max-width: 1129px;
+        
+    }
+.tooltip{
+      position: relative;
+      display: inline-block;
+      border: 3px dotted red;
+    }
+.tooltiptext{
+      visibility: hidden;
+      width: 120px;
+      background-color: aquamarine;
+      color: green;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      top: -5px;
+      left: 110%;
+    }
+.tooltip .tooltiptext::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+  }
+.pagination{
+              display: inline-block;
+                padding-top: 10px;
+
+        }
+.pagination a {
+                color: green;
+                font-weight: bold;
+                float: left;
+                padding: 8px 16px;
+                text-decoration: none;
+                transition: background-color .3s;
+                border: 1px solid #ddd;
+                margin: 0;
+          }
+.pagination a.active {
+                border: 1px solid red;
+                background-color: yellow;
+                color: white;
+              }    
+  .zindex{
+    position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+  }

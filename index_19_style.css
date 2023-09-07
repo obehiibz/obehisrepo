@@ -1,0 +1,154 @@
+header{
+background-color: rgb(44, 44, 59);
+width: 100%;
+height: auto;
+  }
+nav{
+    padding: 30px 30px 25px 15px;
+    height: 20px;
+  }
+ul {
+    list-style: none;
+    margin: 0;
+    padding-bottom: 30px;
+    float: right;
+    overflow: hidden;
+  }
+li {
+    float: left;
+    padding: 16px;
+    display: inline;
+    text-align: center;
+  }
+a{
+    color: white;
+  }
+img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    position: absolute;
+    /*this is to position the h4 header on top the image. Both are inside the div container*/
+    color:white;
+    font-size: xx-large;
+    z-index: 2;
+    margin-top: 250px;
+    margin-left: 500px;
+    line-height: 50px;
+}
+.level2{
+  font-size: small ;
+}
+p{
+  color: white;
+}
+button{
+  position: absolute;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  z-index: 2;
+  margin-top: 340px;
+  margin-left: 600px;
+  border: 0;
+  transform: translateY(2px);
+  }
+.foot{
+    background-color: rgb(44, 44, 59);
+    position: fixed;
+    display: inline;
+    width: 98.8%;
+    height: 10%;
+    bottom: 0;
+    left: 8px;
+    padding: 0;
+    text-align: center;
+  }
+.divabout{
+  width: 98.8%;
+  height: auto;
+  background-color: rgb(38, 38, 82);
+  position: absolute;
+  }
+main{
+    display: inline-block;
+    background-color: bisque;
+   
+  }
+.leftsidebar {
+    width: 70%;
+    height: auto;
+    padding: 0;
+    float: left;
+}   
+.h4{
+        /*this is to position the h4 header on top the image. Both are inside the div container*/
+    color: white;
+    font-size: large;
+    z-index: 2;
+    margin-left: 500px;
+    line-height: 70px;
+}
+p{
+  color: black;
+  line-height: 30px;
+  text-align: center;
+  font-size: large;
+}
+.p {
+  position: relative;
+  width: 28%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+h2{
+  color: white;
+  text-align: center;
+}
+.formstyle {
+  width: 28%;
+  height: 4%;
+  float: right;
+  padding-top: 20px;
+  margin-top: 5px;
+  padding-left: 20px;
+}
+label {
+  width: fit-content;
+  font-weight: bold;
+  color: navy;
+  margin-left: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+input {
+  width: 350px;
+  height: 30px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 2px solid navy;
+  border-radius: 4px;
+    }
+
+textarea {
+  width: 350px;
+  height: 150px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 2px solid navy;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+.sendmessage {
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: navy;
+    }
+
+form {
+  color: navy;
+}
